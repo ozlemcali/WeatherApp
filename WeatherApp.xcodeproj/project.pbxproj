@@ -16,6 +16,10 @@
 		C3164AC2295480B20038F4F3 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3164AC1295480B20038F4F3 /* WeatherData.swift */; };
 		C3164AC4295480E30038F4F3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3164AC3295480E30038F4F3 /* WeatherManager.swift */; };
 		C3164AC6295481BB0038F4F3 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3164AC5295481BB0038F4F3 /* WeatherModel.swift */; };
+		C330AC7C2954DB760095E464 /* Ekran resmi4.png in Resources */ = {isa = PBXBuildFile; fileRef = C330AC782954DB750095E464 /* Ekran resmi4.png */; };
+		C330AC7D2954DB760095E464 /* Ekran resmi1.png in Resources */ = {isa = PBXBuildFile; fileRef = C330AC792954DB750095E464 /* Ekran resmi1.png */; };
+		C330AC7E2954DB760095E464 /* Ekran resmi2.png in Resources */ = {isa = PBXBuildFile; fileRef = C330AC7A2954DB750095E464 /* Ekran resmi2.png */; };
+		C330AC7F2954DB760095E464 /* Ekran resmi3.png in Resources */ = {isa = PBXBuildFile; fileRef = C330AC7B2954DB760095E464 /* Ekran resmi3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		C3164AC1295480B20038F4F3 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		C3164AC3295480E30038F4F3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		C3164AC5295481BB0038F4F3 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		C330AC782954DB750095E464 /* Ekran resmi4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran resmi4.png"; sourceTree = "<group>"; };
+		C330AC792954DB750095E464 /* Ekran resmi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran resmi1.png"; sourceTree = "<group>"; };
+		C330AC7A2954DB750095E464 /* Ekran resmi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran resmi2.png"; sourceTree = "<group>"; };
+		C330AC7B2954DB760095E464 /* Ekran resmi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran resmi3.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		C3164A9F2954753E0038F4F3 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				C330AC772954DB650095E464 /* GithubSS */,
 				C3164AC029547ECD0038F4F3 /* Controller */,
 				C3164ABF29547EC20038F4F3 /* View */,
 				C3164ABE29547EB90038F4F3 /* Model */,
@@ -98,6 +107,17 @@
 				C3164AA42954753E0038F4F3 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C330AC772954DB650095E464 /* GithubSS */ = {
+			isa = PBXGroup;
+			children = (
+				C330AC792954DB750095E464 /* Ekran resmi1.png */,
+				C330AC7A2954DB750095E464 /* Ekran resmi2.png */,
+				C330AC7B2954DB760095E464 /* Ekran resmi3.png */,
+				C330AC782954DB750095E464 /* Ekran resmi4.png */,
+			);
+			path = GithubSS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +178,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C330AC7C2954DB760095E464 /* Ekran resmi4.png in Resources */,
 				C3164AAD2954753F0038F4F3 /* LaunchScreen.storyboard in Resources */,
+				C330AC7E2954DB760095E464 /* Ekran resmi2.png in Resources */,
+				C330AC7F2954DB760095E464 /* Ekran resmi3.png in Resources */,
 				C3164AAA2954753F0038F4F3 /* Assets.xcassets in Resources */,
 				C3164AA82954753E0038F4F3 /* Main.storyboard in Resources */,
+				C330AC7D2954DB760095E464 /* Ekran resmi1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
